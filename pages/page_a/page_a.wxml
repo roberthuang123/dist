@@ -1,7 +1,7 @@
 
-  <image class="h_content" src="http://image.vdongchina.com/M00/0B/64/ZSUkmVpv7QuEH9kcAAAAAKhb5Mc622.jpg" data-v-dUdpfWNM="">
-    <view class="h_headimg" bindtap="clickEvent" data-v-dUdpfWNM="">
-        <image class="h_img" src="{{userInfo.avatarUrl}}" data-v-dUdpfWNM=""/>
+  <image class="h_content" src="http://image.vdongchina.com/M00/0B/64/ZSUkmVpv7QuEH9kcAAAAAKhb5Mc622.jpg" data-v-lbLGfvNp="">
+    <view class="h_headimg" bindtap="clickEvent" data-v-lbLGfvNp="">
+        <image class="h_img" src="{{userInfo.avatarUrl}}" data-v-lbLGfvNp=""/>
     </view>
-    <button class="h_btn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary" data-v-dUdpfWNM=""> 查看你的当前位置 </button>
+    <button class="h_btn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary" data-v-lbLGfvNp=""> 查看你的当前位置 </button>
   </image>

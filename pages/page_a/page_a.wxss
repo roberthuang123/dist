@@ -1,14 +1,14 @@
 page {
     height: 100%
 }
-.h_content[data-v-dUdpfWNM] {
+.h_content[data-v-lbLGfvNp] {
     z-index: 1;
     height: 100%;
     width: 100%;
     display: block;
     position: relative
 }
-.h_headimg[data-v-dUdpfWNM] {
+.h_headimg[data-v-lbLGfvNp] {
     position: absolute;
     top: 190rpx;
     left: 50%;
@@ -17,14 +17,14 @@ page {
     height: 148rpx;
     width: 148rpx
 }
-.h_img[data-v-dUdpfWNM] {
+.h_img[data-v-lbLGfvNp] {
     height: 100%;
     width: 100%;
     border-radius: 50%;
     display: block;
     box-shadow: 0 2rpx 12rpx 0 rgba(0,0,0,0.5)
 }
-.h_btn[data-v-dUdpfWNM] {
+.h_btn[data-v-lbLGfvNp] {
     position: absolute;
     top: 440rpx;
     left: 50%;
