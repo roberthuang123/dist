@@ -1,0 +1,32 @@
+
+  <!--index.wxml-->
+  <view class="container">
+    <view bindtap="bindViewTap" class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"/>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+    <view class="usermotto">
+      <text class="user-motto">{{getText}}</text>
+    </view>
+    <view>
+      <button type="primary" size="mini" bindtap="setMotto">setMotto</button>
+    </view>
+    <view>
+      <text class="user-motto">{{helloText}}</text>
+    </view>
+    <!-- sayHi Component start -->
+    
+	<view>
+        <view>
+		    <button type="primary" size="mini" bindtap="$sayHi$showContent">showContent</button>
+        </view>
+        <view>
+            <text class="user-motto">{{$sayHi$content}}</text>
+        </view>
+        <view>
+            <button type="primary" size="mini" bindtap="$sayHi$increment">+</button>
+        </view>
+    </view>
+
+    <!-- sayHi Component end -->
+  </view>
